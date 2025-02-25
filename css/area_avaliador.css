@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Poppins:wght@200;400;500;600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3, p, li{
+    font-family: 'Poppins';
+}
+label, option{
+    font-family: 'Inter';
+}
+header{
+    width: 100%;
+    background-color: rgba(12, 63, 121, 0.742);
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 20px 0;
+    position: absolute;
+    top: 0%;
+  }
+  .logo-imagem img{
+    width: 90px;
+    height: 90px;
+    border-radius: 25px;
+  }
+  .conteiner-logo{
+    display: flex;
+    align-items: center;
+  }
+  .logo-texto{
+    margin-left: 20px;
+    color: white;
+  }
+  .menu li{
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  .menu li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 15px;
+  }
+  
+  .menu li a:hover{
+    background-color:rgba(100, 100, 100, 0.5) ;
+  }
+  
+  .perfil img {
+    width: 35px;
+    height: 35px;      
+    cursor: pointer;
+    transition: .2s;
+  }
+
+#explicando_Avaliador{
+    width: 60%;
+    margin-top: 200px;
+    margin-left: 350px;
+    margin-bottom: 70px;
+}
+
+#explicando_Avaliador{
+    text-align: justify;
+}
+#explicando_Avaliador img{
+    width: 50%;
+   display: block;
+   margin: 80px auto;
+}
+
+  .form-coluna {
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between  ;
+    margin-left: 350px;
+}
+
+.input-group {
+    width: calc(50% - 10px);
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.input-group label,
+.input-group select {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+select {
+    display: block;
+    width: 60%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.flex-container input, textarea {
+    display: block;
+    width: 48%;
+    padding: 8px;
+    
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+#gerar{
+  background-color: #4c4;
+  font-size: 15px;
+  color: white;
+  padding: 4px;
+  margin: 20px;
+  margin-left: 500px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  width: 150px;
+  height: 40px;
+}

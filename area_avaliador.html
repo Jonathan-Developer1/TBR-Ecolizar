@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecolizar</title>
+    <link rel="stylesheet" href="css/area_avaliador.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container-logo">
+            <div class="logo-imagem"><img src="img/logoEcolizarWhite.png" alt="Logo"></div>
+            <div class="logo-texto"></div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="logado.html">Início</a></li>
+                <li><a href="logado.html">Sobre</a></li>
+                <li><a href="logado.html">Contato</a></li>
+     
+            </ul>
+        </div>
+        <div class="perfil">
+            <a href="#"><img src="img/perfil.png" alt="Perfil"></a>
+        </div>
+    </header>
+
+    <div id="explicando_Avaliador">
+        <h1>Área exclusiva para avaliadores</h1>
+        <p>
+            É de extrema importância que você marque corretamente como estava o estado da nascente fiscalizada!!!
+        </p>
+        <h3>Por quê</h3>
+        <ul>
+            <li>As nascentes desempenham um papel crucial, não apenas fornecendo água para os córregos e rios que
+                abastecem toda a cidade, mas também sendo um habitat vital para uma variedade de organismos. A
+                preservação das nascentes é essencial para manter a vida e é legalmente designada como Área de
+                Preservação Permanente. Cuidar do entorno dessas nascentes é fundamental para garantir sua vitalidade
+                contínua.</li>
+            <img src="img/nascente.jpg" alt="Nascente">
+        </ul>
+    </div>
+
+    <form id="nascenteForm">
+        <div class="flex-container">
+
+            <div class="input-group">
+            <label for="nome">Nome da Nascente:</label>
+            <input type="text" id="nome">
+            </div>
+
+            <div class="input-group">
+            <label for="localizacao">Localização:</label>
+            <input type="text" id="localizacao" name="localizacao">
+            </div>
+
+            <div class="input-group">
+            <label for="data">Data:</label>
+            <input type="date" id="data" name="data"></div>
+
+            <div class="input-group">
+            <label for="descricao">Descrição:</label>
+            <textarea id="descricao" name="descricao"></textarea>
+            </div>  
+
+            <div class="input-group">
+                <label for="name">Endereço</label>
+                <input type="text" id="endereco">
+            </div>
+            <div class="input-group">
+                <label for="name">UF</label>
+                <select id="uf">
+                    <option value=""></option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="name">Município/Distrito</label>
+                <input type="text" id="municipio">
+            </div>
+            <div class="input-group">
+                <label for="coliformes">Coliformes Totais:</label>
+                <input type="text" id="coliformes">
+            </div>
+
+            <div class="input-group">
+                <label for="oxigenio">Oxigênio dissolvido:</label>
+                <input type="text" id="oxigenio">
+            </div>
+
+            <div class="input-group">
+                <label for="ph">pH:</label>
+                <input type="text" id="ph">
+            </div>
+
+            <div class="input-group">
+                <label for="temperatura">Temperatura da água:</label>
+                <input type="text" id="temperatura">
+            </div>
+
+            <div class="input-group">
+                <label for="temperaturaAr">Temperatura do ar:</label>
+                <input type="text" id="temperaturaAr">
+            </div>
+
+            <div class="input-group">
+                <label for="bioquimica">Demanda Bioquímica de Oxigênio:</label>
+                <input type="text" id="bioquimica">
+            </div>
+
+            <div class="input-group">
+                <label for="fosforo">Fósforo total:</label>
+                <input type="text" id="fosforo">
+            </div>
+
+            <div class="input-group">
+                <label for="nitrato">Nitrato:</label>
+                <input type="text" id="nitrato">
+            </div>
+
+            <div class="input-group">
+                <label for="nitrito">Nitrito:</label>
+                <input type="text" id="nitrito">
+            </div>
+
+            <div class="input-group">
+                <label for="nitrogenio">Nitrogênio amoniacal total:</label>
+                <input type="text" id="nitrogenio">
+            </div>
+
+            <div class="input-group">
+                <label for="nitrogenioTotal">Nitrogênio Total:</label>
+                <input type="text" id="nitrogenioTotal">
+            </div>
+
+            <div class="input-group">
+                <label for="solidos">Sólidos totais:</label>
+                <input type="text" id="solidos">
+            </div>
+
+            <div class="input-group">
+                <label for="turbidez">Turbidez:</label>
+                <input type="text" id="turbidez">
+            </div>
+
+
+            
+        <input id="gerar" type="submit" value="Gerar Texto">
+
+        </div>
+
+    </form>
+
+    <textarea id="areaTexto" style="display:none; border-radius: 20px; margin: 0 auto; width: 60%; height: 200px;"></textarea>
+    <button id="downloadBtn" 
+    style="display:none;   background-color: rgb(0, 81, 255); font-size: 15px; color: white; padding: 4px; margin: 10px auto; border-radius: 8px; border: none; outline: none ;width: 150px; height: 40px;">Baixar PDF</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="js/relatorio.js"></script>
+
+</body>
+
+</html> 

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Poppins';
+}
+
+body{
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background: url(../img/bg5.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header{
+  width: 100%;
+  background-color: rgb(49, 101, 153);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  position: absolute;
+  top: 0%;  
+}
+
+.logo-imagem img{
+  width: 90px;
+  height: 90px;
+  border-radius: 25px;
+}
+
+.conteiner-logo{
+display: flex;
+align-items: center;
+}
+.logo-texto{
+margin-left: 20px;
+color: white;
+}
+.menu li{
+display: inline-block;
+margin: 0 10px;
+}
+.menu li a{
+font-size: 24px;
+text-decoration: none;
+color: white;
+text-transform: uppercase;
+padding: 10px 15px;
+border-radius: 15px;
+}
+.menu li a:hover{
+background-color:rgba(100, 100, 100, 0.5) ;
+}
+
+.perfil img {
+width: 35px;
+height: 35px; 
+cursor: pointer;
+transition: .2s;
+}
+
+main.cards {
+height: 80vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #afdeff;
+flex-direction: column;
+padding: 32px;
+}
+main.cards section.card h2 {
+margin: 16px 0;
+color: white;
+}
+
+
+main.cards section.card span {
+font-weight: 300;
+max-width: 400px;
+margin-bottom: 16px;
+font-size: 100%;  
+color: whitesmoke;
+}
+
+a{
+text-decoration: none;
+}
+
+main.cards :hover {
+transform: scale(1.05);
+transition: .6s;
+}
+
+main.cards section.card {
+margin: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+background-color: rgba(31, 40, 51, 0.742);
+padding: 1rem 1.5rem;
+border-radius: 8px;
+max-height: 256px;
+margin-left: 32px;
+box-shadow: 20px 20px 50px 20px rgba(19, 29, 34, 0.626);
+}
+
+main .cards:first-child {
+width: 100px;
+}
+
+main.cards section.card .icon {
+width: 70px;
+height: 70px;
+padding: 10px;
+}
+
+main.cards section.card  img {
+width: 100%;
+}
+
+.container-objetivos {
+display: flex;
+justify-content: space-between;
+}
+
+.foto-objetivos img {
+display: block;
+margin: 0 auto;
+width: 150px; 
+height: 150px;
+}
+
+.btn {
+background-color: #0b2733;
+color: white;
+border: none;
+}
+
+.btn button {
+width: 64px;
+border-radius: 10px;
+height: 64px;
+}
+
+/* RODAPÉ */
+

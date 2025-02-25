@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Poppins:wght@200;400;500;600&display=swap');
+
+*{
+    font-family: "Poppins";
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background-color: rgba(12, 63, 121, 0.742);
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 20px 0;
+    position: absolute;
+    top: 0%;
+  }
+  .logo-imagem img{
+    width: 90px;
+    height: 90px;
+    border-radius: 25px;
+  }
+  .conteiner-logo{
+    display: flex;
+    align-items: center;
+  }
+  .logo-texto{
+    margin-left: 20px;
+    color: white;
+  }
+  .menu li{
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  .menu li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 15px;
+  }
+  
+  .menu li a:hover{
+    background-color:rgba(100, 100, 100, 0.5) ;
+  }
+  
+  .perfil img {
+    width: 35px;
+    height: 35px;      
+    cursor: pointer;
+    transition: .2s;
+  }
+
+  #registrado{
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    margin: 250px auto 0 auto;
+  }
+
+  #registrado img {
+    width: 18%;
+   display: block;
+   margin: 80px auto;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  button {
+    background-color: rgb(30, 30, 202);
+    font-size: 15px;
+    color: white;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 40px;
+  }

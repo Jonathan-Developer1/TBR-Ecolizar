@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Poppins:wght@200;400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins'    
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background: linear-gradient(-45deg, #257597 , #dbf1fc, #257597 );
+  }
+
+  body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: lightblue;
+    background-position: center;
+    background-size: cover;
+}
+  
+
+                               /*------------------------- Menu -------------------------*/
+  .container {
+      max-width: 1280px;
+      margin: auto;
+  }
+
+  .flex { 
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  header{
+    width: 100%;
+    background-color: rgba(12, 63, 121, 0.742);
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 20px 0;
+    position: absolute;
+    top: 0%;
+  }
+
+  .logo-imagem img{
+    width: 90px;
+    height: 90px;
+    border-radius: 25px;
+  }
+
+  .conteiner-logo{
+    display: flex;
+    align-items: center;
+  }
+  .logo-texto{
+    margin-left: 20px;
+    color: white;
+  }
+  .menu li{
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  .menu li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 15px;
+  }
+  
+  .menu li a:hover{
+    background-color:rgba(100, 100, 100, 0.5) ;
+  }
+  
+  .perfil img {
+    width: 35px;
+    height: 35px;      
+    cursor: pointer;
+  }
+
+
+    /* CARDS */
+
+  .cardUm{
+    width: 300px;
+    height: 400px;
+    border: 1px solid #a8a8a8;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 2px 4px 10px rgb(22, 70, 146);
+}
+
+/* Estilo para as imagens dentro dos cards */
+.cardUm img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+    display: block;
+    width: 100%; 
+}
+
+.cardUm h1 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    
+}
+
+.cardUm p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+.cardUm .bairro {
+    color: #ffffff;
+}
+
+
+.cardDois{
+    color: rgb(0, 0, 0);
+    width: 300px;
+    height: 400px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    background-color: rgb(255, 255, 255);
+}
+
+.cardDois img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+    display: block;
+    width: 100%; 
+}
+
+.cardDois h1{
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.cardDois p{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.cardDois .bairro{
+    color: #201f1f;
+}
+
+
+.cardTres{
+    width: 300px;
+    height: 400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+.cardTres img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+    display: block;
+    width: 100%; 
+}
+
+.cardTres h1{
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.cardTres p{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.cardTres .bairro{
+    color: #201f1f;
+}
+
+
+.cardQuatro{
+    width: 300px;
+    height: 400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+.cardQuatro img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+    display: block;
+    width: 100%; 
+}
+
+.cardQuatro h1{
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.cardQuatro p{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.cardQuatro .bairro{
+    color: #201f1f;
+}
+
+
+.cardCinco{
+    width: 300px;
+    height: 400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    background-color: rgba(0, 0, 0, 0.377);
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+.cardCinco img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+    display: block;
+    width: 100%; 
+}
+
+.cardCinco h1{
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.cardCinco p{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.cardCinco .bairro{
+    color: #201f1f;
+}
+
+.cardSeis{
+    width: 300px;
+    height: 410px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+.cardSeis img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+    display: block;
+    width: 100%; 
+}
+
+.cardSeis h1{
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.cardSeis p{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.cardSeis .bairro{
+    color: #201f1f;
+}
+
+@media (max-width : 1500px) {
+
+
+    .navdark img {
+        width: 150px;
+        margin-right: 385px;
+    }
+
+}
+
+@media (max-width : 1200px) {
+
+
+    .navdark img {
+        width: 150px;
+        margin-right: 300px;
+    }
+}
+
+
+@media (max-width : 1100px) {
+
+
+    .navdark img {
+        width: 150px;
+        margin-right: 255px;
+    }
+}
+
+/* RODAPÉ */
+
+footer{
+    width: 100%;
+    color: var(--color-neutral-40);
+  }
+  
+    .fixarRodape {
+        position: absolute;
+        width: 100%;
+        bottom: -120px;
+    }       
+  
+  .footer-link{
+    text-decoration: none;
+  }
+  
+  #footer_content {
+    background-color: var(--color-neutral-10);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+  }
+  
+  #footer_content img{
+  width: 25%;
+  border-radius: 8px;
+  margin-left: 40px;
+  }
+  
+  #footer_contacts h1 {
+    margin-bottom: 0.75rem;
+  }
+  
+  #footer_social_media{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+  }
+  
+  #footer_social_media .footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition:all 0.4s;
+  }
+  
+  #footer_social_media .footer-link i{
+    font-size: 1.25rem;
+  }
+  
+  #footer_social_media .footer-link:hover{
+    opacity: 0.8;
+  }
+  
+  #instagram{
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+  }
+  
+  #facebook{
+    background-color: #4367b3;
+  }
+  
+  #whatsapp{
+    background-color: #25d366;
+  }
+  
+  .footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+  }
+  
+  .footer-list .footer-link{
+    color: var(--color-neutral-30);
+  }
+  
+  .footer-list .footer-list{
+    color: #7f37c9;
+  }
+  
+  #footer_subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  #footer_subscribe p {
+    color: var(--color-neutral-30);
+  }
+  
+  #input_group{
+    display: flex;
+    align-items: center;
+    background-color: var(--color-neutral-0) ;
+    border-radius: 4px
+  }
+  
+  #input_group input{
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+  }
+  
+  #input_group button{
+    background-color: #7f37c9;
+    border: none;
+    color: var(--color-neutral-40);
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+  }
+  
+  #input_group button:hover{
+    opacity: 0.8;
+  }
+  
+  #footer_copyright{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+  }
+  
+  @media screen  and (max-width: 768px) {
+    #footer_content{
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+    }   
+  }
+  
+  @media screen  and (max-width: 426px) {
+    #footer_content{
+        grid-template-columns: repeat(1,1fr);
+        padding: 3rem 2rem;
+    }   
+  }
