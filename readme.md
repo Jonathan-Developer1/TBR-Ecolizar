@@ -46,11 +46,11 @@ Além disso, o Ecolizar tinha um grande potencial educacional, ajudando estudant
 
 <p align="center">
   <h2 align=center> Home </h2>
-  <img alt="Made by vitor" src="./.github/home.png">
+  <img alt="Home" src="./.github/home.png">
   <h2 align=center>Registrar Nascente</h2>
-  <img alt="Made by vitor" src="./.github/registrar-nascente.png">
+  <img alt="Registrar-Nascente" src="./.github/registrar-nascente.png">
   <h2 align=center>Gerar Relatório/pdf</h2>
-  <img alt="Made by vitor" src="./.github/gerar-pdf.png">
+  <img alt="Gerar-Pdf" src="./.github/gerar-pdf.PNG">
 
 </p>
 
